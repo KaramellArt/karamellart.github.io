@@ -1,0 +1,224 @@
+@import url(//db.onlinewebfonts.com/c/3401324718dca681f4f775f3ce244e32?family=Lavanderia+Regular);
+
+@font-face {font-family: "Lavanderia Regular"; src:
+  url("//db.onlinewebfonts.com/t/3401324718dca681f4f775f3ce244e32.eot"); src:
+  url("//db.onlinewebfonts.com/t/3401324718dca681f4f775f3ce244e32.eot?#iefix") format("embedded-opentype"),
+  url("//db.onlinewebfonts.com/t/3401324718dca681f4f775f3ce244e32.woff2") format("woff2"),
+  url("//db.onlinewebfonts.com/t/3401324718dca681f4f775f3ce244e32.woff") format("woff"),
+  url("//db.onlinewebfonts.com/t/3401324718dca681f4f775f3ce244e32.ttf") format("truetype"),
+  url("//db.onlinewebfonts.com/t/3401324718dca681f4f775f3ce244e32.svg#Lavanderia Regular") format("svg"); }
+
+
+body {
+  margin: 0;
+}
+h2 { font-family: Helvetica;
+  font-size: 18px; font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 26.4px;
+  margin: 0 0 13px 0;
+  text-transform: uppercase;
+  color: brown;
+}
+/*h3 { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; }*/
+p { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px; font-style: normal; font-variant: normal;
+  font-weight: 400; line-height: 20px;
+}
+
+footer{
+  text-align: center;
+}
+
+#testata{
+  text-decoration: none;
+  font-family: 'Lavanderia Sturdy';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  color: #111111;
+}
+
+#credits{
+  font-family: ABeeZee, sans-serif;
+  font-size: 15px;
+  margin-bottom:23px;
+  color:rgb(193,184,184);
+}
+
+a:link {
+  text-decoration: none;
+  color: brown;
+}
+
+a:visited {
+  text-decoration: none;
+  color: brown;
+}
+
+a:hover {
+  text-decoration: none;
+  color: brown;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+a.surprise:hover {
+  text-decoration: none;
+  color: lime;
+}
+
+.icon a {
+  color: black;
+  font-size:35px;
+  margin-right:30px;
+}
+
+.topnav {
+  overflow: hidden;
+  text-align: center;
+}
+.topnav a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  display: inline;
+  color: #b8a9a9;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 14px 16px;
+}
+
+.topnav a:hover {
+  color: black;
+}
+
+.topnav a.active {
+  color: black;
+}
+
+.topnav .icon {
+  display: none;
+  text-align: right;
+}
+
+@media screen and (max-width: 685px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+    position:absolute;
+    top:0;
+    right:45%;
+  }
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    top: 0;
+    right:45%;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: center;
+  }
+}
+
+:root {
+  font-size: 10px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.gallery-item img {
+  display: block;
+}
+
+.container {
+  max-width: 107rem;
+  margin: 0 auto;
+  padding: 4rem 2rem 3rem 2rem;
+  text-align: center;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: -1rem -1rem;
+}
+
+.gallery-item {
+  margin: 1rem;
+  cursor: pointer;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+}
+.container-contact{
+  display: inline;
+  text-align: center;
+}
+
+.collab-container {
+  position: relative;
+  width: 1000px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 3rem 2rem 3rem 2rem;
+}
+.collab-container .card {
+  position: relative;
+  max-width: 1000px;
+  background: #ffe1c6;
+  border-radius: 2rem;
+  margin: 1rem;
+  padding: 1.5rem;
+  display: flex;
+}
+.collab-container .card .imgBx {
+  max-width: 330px;
+  flex: 0 0 330px;
+  margin-right: 1.5rem;
+}
+.collab-container .card .imgBx img {
+  border-style: dashed;
+  border-radius: 1em;
+  border-width: 1px;
+  border-color: brown;
+  border-radius: 1.5rem;
+  max-width: 100%;
+}
+.collab-container .card .content {
+  margin-left: 0;
+}
+
+@media (max-width: 768px) {
+  .collab-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+  }
+   
+  .collab-container .card {
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 330px;
+    margin: auto;
+  }
+
+  .collab-container .card .imgBx {
+    max-width: 100%;
+    flex: 0;
+    margin-right: 0;
+  }
+}
