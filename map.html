@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Personal Portfolio">
+    <meta name="keywords" content="Portfolio, Art, Original Art, Fan Art">
+    <meta name="author" content="Mariangela de Gemmis">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Karamell Art</title>
+	<link rel="stylesheet" href="//db.onlinewebfonts.com/c/3401324718dca681f4f775f3ce244e32?family=Lavanderia+Regular" type="text/css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+        user-select: none; /* supported by Chrome and Opera */
+        -webkit-user-select: none; /* Safari */
+        -khtml-user-select: none; /* Konqueror HTML */
+        -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+        background-color: #fae8da;
+}
+.analori-tb_map {
+        width: 1220px;
+        height: 932px;
+        margin: auto;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+}
+.manina {
+	cursor:pointer;
+}
+</style>
+</head>
+<body>
+        <div class="analori-tb_map">
+                <img id="ClickAndChange" onclick="tornaIndietro()" src ="assets/img/map.jpg" width="1220" height="932" border="0" usemap="#mapname" />
+
+                <div id="image_map"> 
+                        <map name="mapname">
+                        <area class="manina" shape="poly" coords="146,121,132,212,110,316,112,345,113,348,115,368,160,382,191,382,201,372,206,372,225,357,224,315,228,254,231,174,232,151,216,141,197,134,146,120" alt="Bonk" onclick="changeBonk()" />
+                        <area class="manina" shape="poly" coords="247,317,290,363,320,382,397,391,448,374,464,349,478,336,492,332,489,320,503,320,505,310,510,306,516,273,464,202,369,180,299,199,257,245,252,282" alt="Camp" onclick="changeCamp()" />
+                        <area class="manina" shape="poly" coords="529,533,544,532,542,539,577,530,577,536,582,532,589,543,592,538,605,545,605,537,632,545,602,508,613,457,580,453,569,511,528,534" alt="Jyliet" onclick="changeJyliet()" />
+                        <area class="manina" shape="poly" coords="293,802,314,813,337,814,493,810,507,778,476,698,462,703,476,671,475,649,458,641,416,651,365,682,340,711,325,735,321,745,329,748,312,760,296,780,288,793,290,795" alt="Macaw" onclick="changeMacaw()" />
+                        <area class="manina" shape="poly" coords="127,413,145,423,205,428,209,425,232,470,253,486,241,492,238,517,255,505,261,507,261,501,265,496,274,503,281,506,276,509,276,514,273,517,271,527,269,530,263,524,260,543,261,565,261,568,265,572,266,576,230,605,196,584,161,567,127,561,110,510,84,514,82,507,124,461,133,431,129,431,125,424,126,415" alt="Merasmus" onclick="changeMerasmus()" />
+                        <area class="manina" shape="poly" coords="1010,219,970,235,955,298,1013,321,1060,324,1082,290,1072,241,1033,224" alt="Cave" onclick="changeCave()" />
+                        <area class="manina" shape="circle" coords="1118,654,50" alt="Scout" onclick="changeScout()" />
+                        <area class="manina" shape="poly" coords="634,645,611,667,610,679,619,694,616,701,619,734,626,751,635,781,618,809,619,812,781,813,870,817,896,817,907,821,918,825,1017,827,1026,807,1020,794,1012,801,1000,775,1004,767,990,760,908,693,846,671,760,647,663,642" alt="Amoeba" onclick="changeAmoeba()" />
+                        <area class="manina" shape="poly" coords="785,397,832,369,898,342,978,337,1020,338,1059,345,1056,355,1044,362,1080,368,1117,367,1162,382,1171,390,1158,453,1097,484,969,495,874,478,872,466,809,459,776,420,785,407" alt="Milk"  onclick="changeMilk()" />
+                        </map>
+                </div>
+        </div>
+        <script>
+                var image =  document.getElementById("ClickAndChange");
+        
+                function changeBonk()
+                {			
+                        image.src = "assets/img/bonk.jpg";
+                }
+                                
+                function tornaIndietro()
+                {			
+                        image.src = "assets/img/map.jpg";
+                }
+                                
+                function changeCamp()
+                {			
+                        image.src = "assets/img/camp.jpg";
+                }
+                                
+                function changeJyliet()
+                {			
+                        image.src = "assets/img/Jyliet.jpg";
+                }
+                
+                function changeMacaw()
+                {			
+                        image.src = "assets/img/Macaw.jpg";
+                }
+                
+                function changeMerasmus()
+                {			
+                        image.src = "assets/img/merasmus.jpg";
+                }
+                
+                function changeCave()
+                {			
+                        image.src = "assets/img/Cave.jpg";
+                }
+                
+                function changeScout()
+                {			
+                        image.src = "assets/img/scout.jpg";
+                }
+                
+                function changeAmoeba()
+                {			
+                        image.src = "assets/img/Amoeba.jpg";
+                }
+                                
+                function changeMilk()
+                {			
+                        image.src = "assets/img/milk.jpg";
+                }
+        </script>
+</body>
+</html>

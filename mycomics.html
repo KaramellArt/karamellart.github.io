@@ -1,0 +1,76 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Personal Portfolio">
+  <meta name="keywords" content="Portfolio, Art, Original Art, Fan Art">
+  <meta name="author" content="Mariangela de Gemmis">
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <title>Karamell Art</title>
+  <link href="assets/css/mycomicstyles.css" rel="stylesheet">
+  <link href="assets/css/lightgallery.min.css" rel="stylesheet">
+  <title>Web Based Comic Book Reader</title>      
+</head>
+<body>
+    <nav class="navigation">
+        <div class="topnav" id="myTopnav">
+          <h1 id="testata">Karamell Art</a></h1>
+          <a  href="index.html">Coloring</a>
+          <a  href="process.html">Process</a>
+          <a  href="sketches.html">Sketches</a>
+          <a  class="active" href="mycomics.html">Comics</a>
+          <a  href="collaboration.html">Collaboration</a>
+          <a  href="animation.html">Animation</a>
+          <a  href="about.html">About</a>
+          <a  href="contact.html">Contact</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+          </a>
+        </div>
+    </nav>
+
+    <div class="se-pre-con">
+		<div class="progress-text">Reading 0/0 pages</div>
+	</div> <!-- loading spinner -->
+    <div class="container">
+        <fieldset>
+          <div id="internal" class="option" style="display:show">
+              <button id="readNow" comic_title="la_strega_enormissima.cbz">
+                <img src='assets/comics/la_strega_enormissima_thumb.jpg' class='imgUrl'/>
+                <br>La Strega Enormissima
+              </button>
+
+              <button>
+                <img src='assets/comics/coming_soon.jpg' class='imgUrl'/>
+                <br>Coming Soon
+              </button>
+          </div>
+          <br>
+        </fieldset>
+
+        <br><br>
+
+        <!-- output comics images here -->
+        <div id="output"></div>
+
+        <br><br>
+        <p id="credits">Mariangela de Gemmis &copy; 2019 - <span id='currYear'></span></p>
+    </div>
+    <script>
+      function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+      }
+    </script>
+<!-- load all scripts for the comics-->
+<script src="assets/js/jquery-3.2.0.min.js"></script>
+<script src="assets/js/uncompress/uncompress.js"></script>
+<script src="assets/js/lightGallery/lightgallery-all.min.js"></script>
+<script src="assets/js/script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Personal Portfolio">
+  <meta name="keywords" content="Portfolio, Art, Original Art, Fan Art">
+  <meta name="author" content="Mariangela de Gemmis">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Karamell Art</title>
+<style>
+body{
+	background: #12385d;
+}
+span{
+  font-family: sans-serif;
+	color: white;
+}
+p#cf7_controls {
+  text-align:center;
+}
+#cf7_controls span {
+  padding-right:2em;
+  cursor:pointer;
+}
+#cf7 {
+  position:relative;
+  height:800px;
+  width:600px;
+  margin:0 auto 10px;
+}
+#cf7 img {
+  height:800px;
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+  opacity:0;
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+}
+
+#cf7 img.opaque {
+  opacity:1;
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: alpha(opacity=1);
+}
+</style>
+<script src="assets/js/jquery_scunt.js"></script>
+<script>
+$(document).ready(function() {
+  $("#cf7_controls").on('click', 'span', function() {
+    $("#cf7 img").removeClass("opaque");
+
+    var newImage = $(this).index();
+
+    $("#cf7 img").eq(newImage).addClass("opaque");
+
+    $("#cf7_controls span").removeClass("selected");
+    $(this).addClass("selected");
+  });
+});
+</script>
+</head>
+<body>
+<div id="cf7" class="shadow">
+  <img class='opaque' src="assets/img/scunt1.jpg" />
+  <img src="assets/img/scunt2.jpg" />
+  <img src="assets/img/scunt3.jpg" />
+  <img src="assets/img/scunt4.jpg" />
+</div>
+<p id="cf7_controls">
+  <span class="selected">Classic</span>
+  <span>Dead</span>
+  <span>Lime</span>
+  <span>School</span>
+</p>
+</body>
+</html>
