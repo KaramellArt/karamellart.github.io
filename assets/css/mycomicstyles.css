@@ -1,26 +1,22 @@
-@import url(//db.onlinewebfonts.com/c/3401324718dca681f4f775f3ce244e32?family=Lavanderia+Regular);
-
-@font-face {font-family: "Lavanderia Regular"; src:
-  url("//db.onlinewebfonts.com/t/3401324718dca681f4f775f3ce244e32.eot"); src:
-  url("//db.onlinewebfonts.com/t/3401324718dca681f4f775f3ce244e32.eot?#iefix") format("embedded-opentype"),
-  url("//db.onlinewebfonts.com/t/3401324718dca681f4f775f3ce244e32.woff2") format("woff2"),
-  url("//db.onlinewebfonts.com/t/3401324718dca681f4f775f3ce244e32.woff") format("woff"),
-  url("//db.onlinewebfonts.com/t/3401324718dca681f4f775f3ce244e32.ttf") format("truetype"),
-  url("//db.onlinewebfonts.com/t/3401324718dca681f4f775f3ce244e32.svg#Lavanderia Regular") format("svg"); }
-
 body, footer {
   margin: 0;
   text-align: center;
-}
-
-#testata {
-  margin: 5rem auto 3.2rem auto;
 }
 
 i, b{
   font-family: sans-serif;
   font-size: 12px;
 }
+
+.topnav img {
+  width: 80%;
+  max-width: 20rem;
+}
+
+#testata {
+  margin: 5rem auto 3.2rem auto;
+}
+
 #credits {
   font-family: ABeeZee, sans-serif;
   font-size: 15px;
@@ -32,6 +28,12 @@ i, b{
   margin: 0 auto;
   padding: 4rem 2rem 3rem 2rem;
   text-align: center;
+}
+
+.icon a {
+  color: black;
+  font-size:35px;
+  margin-right:30px;
 }
 
 .topnav {
