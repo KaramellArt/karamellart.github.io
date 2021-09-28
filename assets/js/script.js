@@ -27,7 +27,7 @@ $(document).ready(function () {
 
 		var blob = null;
 		var xhr = new XMLHttpRequest();
-		xhr.open("GET", comictitle);
+		xhr.open("GET", "assets/comics/" + comictitle);
 		xhr.responseType = "blob";
 		xhr.onload = function () {
 			blob = xhr.response;
