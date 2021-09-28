@@ -14,13 +14,9 @@ body, footer {
 }
 
 #testata {
-  text-decoration: none;
-  font-family: 'Lavanderia Sturdy';
-  font-style: normal;
-  font-weight: normal;
-  font-size: 40px;
-  color: #111111;
+  margin: 5rem auto 3.2rem auto;
 }
+
 i, b{
   font-family: sans-serif;
   font-size: 12px;
