@@ -8,6 +8,15 @@
   url("//db.onlinewebfonts.com/t/3401324718dca681f4f775f3ce244e32.ttf") format("truetype"),
   url("//db.onlinewebfonts.com/t/3401324718dca681f4f775f3ce244e32.svg#Lavanderia Regular") format("svg"); }
 
+  @font-face {font-family: "Lavanderia Regular";
+    src: url("http://db.onlinewebfonts.com/t/3401324718dca681f4f775f3ce244e32.eot"); /* IE9*/
+    src: url("http://db.onlinewebfonts.com/t/3401324718dca681f4f775f3ce244e32.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("http://db.onlinewebfonts.com/t/3401324718dca681f4f775f3ce244e32.woff2") format("woff2"), /* chrome firefox */
+    url("http://db.onlinewebfonts.com/t/3401324718dca681f4f775f3ce244e32.woff") format("woff"), /* chrome firefox */
+    url("http://db.onlinewebfonts.com/t/3401324718dca681f4f775f3ce244e32.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
+    url("http://db.onlinewebfonts.com/t/3401324718dca681f4f775f3ce244e32.svg#Lavanderia Regular") format("svg"); /* iOS 4.1- */
+}
+
 
 body {
   margin: 0;
@@ -29,6 +38,11 @@ p { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 footer{
   text-align: center;
+}
+
+.topnav img {
+  width: 80%;
+  max-width: 350px;
 }
 
 #testata{
