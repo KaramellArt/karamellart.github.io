@@ -133,6 +133,7 @@ button{
   border-style: dashed;
   border-radius: 1em;
   border-color: brown;
+    cursor:pointer;
 }
 
 #output {
