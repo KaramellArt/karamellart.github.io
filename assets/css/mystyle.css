@@ -37,6 +37,10 @@ p { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:rgb(193,184,184);
 }
 
+figcaption{
+  font-size:medium;
+}
+
 a:link {
   text-decoration: none;
   color: brown;
