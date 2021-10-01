@@ -59,17 +59,25 @@ p { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:rgb(193,184,184);
 }
 
-figcaption{
-  font-size:medium;
-}
-
 .info-click {
   position: relative;
   background: #ffe1c6;
   border-radius: 2rem;
   margin-top: 3.5rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding: 0 2rem;
+}
+
+.info-click-temp {
+  position: relative;
+  background: #ffe1c6;
+  border-radius: 2rem;
+  margin-top: 3.5rem;
+  margin-bottom: 3rem;
+  padding: 0 2rem;
+}
+
+figcaption{
+  font-size:medium;
 }
 
 a:link {
